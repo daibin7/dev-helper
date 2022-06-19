@@ -1,0 +1,16 @@
+version: '3.1'
+services:
+  mysql:
+    image: mysql:8.0
+    restart: always
+    ports:
+      - 3306:3306
+    command:
+      --default-authentication-plugin=mysql_native_password
+      --character-set-server=utf8mb4
+      --collation-server=utf8mb4_general_ci
+    environment:
+      MYSQL_ROOT_PASSWORD: root123 #配置root用户密码
+    volumes:
+      - ./mysql/data/:/var/lib/mysql/
+      - ./mysql/conf/my.cnf:/etc/mysql/my.cnf
