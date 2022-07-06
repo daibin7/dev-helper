@@ -13,3 +13,4 @@ CREATE TABLE IF NOT EXISTS `user`
 
 # 创建索引
 CREATE INDEX idx_user_username ON user username;
+# drop index idx_user_name on user;

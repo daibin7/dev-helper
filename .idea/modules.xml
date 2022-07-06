@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/helper.iml" filepath="$PROJECT_DIR$/.idea/helper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/helper-db/helper-db.iml" filepath="$PROJECT_DIR$/helper-db/helper-db.iml" />
     </modules>
   </component>
 </project>
